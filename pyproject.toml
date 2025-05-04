@@ -8,6 +8,10 @@ authors = [
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "opencv-python (>=4.11.0.86,<5.0.0.0)",
+    "deepface (>=0.0.93,<0.0.94)",
+    "tensorflow (>=2.19.0,<3.0.0)",
+    "tf-keras (>=2.19.0,<3.0.0)"
 ]
 
 [tool.poetry]
